@@ -14,40 +14,57 @@ header {
     color: white;
     padding: 20px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
     padding: 30px;
 }
 
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+
 #introducao {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 30px;
+    padding: 20px;
     background-color: silver;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 #introducao img {
-    width: 500px;
+    width: 200px;
     height: 250px;
+}
+
+#enunciado {
+    margin-top: 20px;
 }
 
 #cards {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .card {
     background-color: white;
-    padding: 20px;
-    width: 30%;
+    padding: 15px;
+    width: 32%;
     border-radius: 20px;
     text-align: center;
 }
@@ -55,8 +72,12 @@ main {
 .card img {
     width: 100%;
     border-radius: 20px;
-    height: 300px;
+    height: 220px;
     object-fit: cover;
+}
+
+.card h3 {
+    margin-top: 10px;
 }
 
 .card p {
@@ -67,4 +88,12 @@ main {
 small {
     color: crimson;
     text-transform: uppercase;
+}
+
+footer {
+    padding: 30px;
+}
+
+#rodapé p {
+    margin-top: 10px;
 }
